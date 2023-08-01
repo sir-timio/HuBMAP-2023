@@ -1,11 +1,14 @@
 
 ![](assets/header.jpg)
+
+## Goal of the Competition
+The goal of this competition is to segment instances of microvascular structures, including capillaries, arterioles, and venules. You'll create a model trained on 2D PAS-stained histology images from healthy human kidney tissue slides.
+Your help in automating the segmentation of microvasculature structures will improve researchers' understanding of how the blood vessels are arranged in human tissues.
+
 ![](assets/lb.jpg)
 
-Links:
-- [summary](https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature/discussion/422607)
-- [test data annotation](https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature/discussion/417012)
-- [make train folds](https://www.kaggle.com/code/daaadaaa/convert-training-data-to-coco-folds)
-- [private created folds](https://kaggle.com/datasets/78c3d7452bdb76c57a065a91f4ea9b26109840e84f06dea8c265e422fd0e6c2c)
-- [test set distibution](https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature/discussion/413038#2279515)
-- [about image context](https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature/discussion/419143#2322478)
+## Summary:
+MultilabelStratifiedKFolds on dataset, source, num_cells with yolov8 on one class, drop unsure, TTA, WBF, dilation
+
+
+### Best private: 0.552 without dilation and trained mostly on dataset 1
