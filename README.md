@@ -11,4 +11,4 @@ Your help in automating the segmentation of microvasculature structures will imp
 MultilabelStratifiedKFolds on dataset, source, num_cells with yolov8 on one class, drop unsure, TTA, WBF, dilation
 
 
-### Best private: 0.552 without dilation and trained mostly on dataset 1
+### Best private (8th place): 0.552 without dilation and trained mostly on dataset 1
